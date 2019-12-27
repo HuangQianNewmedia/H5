@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>首页</title>
+	<meta http-equiv="description" content="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="jquery/jMenu.jquery.css" type="text/css" />
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/current.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+
+
+
+<style type="text/css">
+
+*{margin:0;padding:0;list-style-type:none;}
+
+a,img{border:0;}
+
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";background:#ddd;}
+
+
+
+/* leftsead */
+
+#leftsead{width:131px;height:143px;position:fixed;top:258px;right:0px;}
+
+*html #leftsead{margin-top:258px;position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+
+#leftsead li{width:131px;height:60px;}
+
+#leftsead li img{float:right;}
+
+#leftsead li a{height:49px;float:right;display:block;min-width:47px;max-width:131px;}
+
+#leftsead li a .shows{display:block;}
+
+#leftsead li a .hides{margin-right:-143px;cursor:pointer;cursor:hand;}
+
+#leftsead li a.youhui .hides{display:none;position:absolute;right:190px;top:2px;}
+
+</style>
+
+</head>
+<body>
+<ul id="jMenu">
+	<li><a class="fNiv">服装</a>
+		<ul>
+			<li class="arrow"></li>
+			<li><a>男装</a>
+
+			</li>
+			<li><a>女装</a></li>
+			<li><a>童装</a>
+				
+			</li>
+			<li><a>配饰</a></li>
+		</ul>
+	</li>
+	
+	
+	<li><a class="fNiv">鞋类</a>
+		<ul>
+			<li class="arrow"></li>
+			<li><a>高跟鞋</a>
+				
+			</li>
+			<li><a>休闲鞋</a>
+				
+			</li>
+			<li><a>运动鞋</a>
+				
+			</li>
+			<li><a>靴子</a></li>
+		</ul>
+	</li>
+	
+	
+	<li><a class="fNiv">化妆品</a>
+		<ul>
+			<li class="arrow"></li>
+			<li><a>口红</a>
+		
+			</li>
+			<li><a>眼影</a>
+			
+			</li>
+			<li><a>粉底液</a></li>
+			<li><a>腮红</a></li>
+		</ul>
+	</li>
+	
+	
+	<li><a class="fNiv">生活用品</a>
+		<ul>
+			<li class="arrow"></li>
+			<li><a>纸巾</a></li>
+			<li><a>洗衣液</a></li>
+			<li><a>牙刷</a>
+				
+			</li>
+			<li><a>牙膏</a></li>
+		</ul>
+	</li>
+	
+	
+	<li><a class="fNiv">文具</a>
+		<ul>
+			<li class="arrow"></li>
+			<li><a>草稿纸</a>
+			
+			</li>
+			<li><a>钢笔</a></li>
+			<li><a>笔记本</a></li>
+			<li><a>笔芯</a></li>
+		</ul>
+	</li>
+	
+	<li><a class="fNiv">书籍</a></li>
+	
+	<li><a class="fNiv">数码</a>
+
+	</li>
+</ul>
+
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="jquery/jMenu.jquery.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#jMenu").jMenu();
+  })
+</script>
+<div class="cation-content">
+            <div style="height:50px"></div> <!-- 可以删除 -->
+            <div class="cation-middle">
+                <dl class="cation-list">
+                    <dt>分类</dt>
+                    
+                    <dd>
+                        <a href="#" rel="" name="mode" class="all on">全部</a>
+                        <a href="#" rel="服装鞋包" name="mode" class="default">服装鞋包</a>
+                        <a href="#" rel="家电数码" name="mode" class="default">家电数码</a>
+                        <a href="#" rel="英文外贸" name="mode" class="default">英文外贸</a>
+                        <a href="#" rel="综合通用" name="mode" class="default">综合通用</a>
+                        <a href="#" rel="食品保健" name="mode" class="default">食品保健</a>
+                        <a href="#" rel="团购模板" name="mode" class="default">团购模板</a>
+                        <a href="#" rel="美容护肤" name="mode" class="default">美容护肤</a>
+                        <a href="#" rel="珠宝饰品" name="mode" class="default">珠宝饰品</a>
+                        <a href="#" rel="鲜花礼品" name="mode" class="default">鲜花礼品</a>
+                        <a href="#" rel="童装母婴" name="mode" class="default">童装母婴</a>
+                    </dd>
+                </dl>
+                <dl class="cation-list">
+                    <dt>主题</dt>
+                    <dd>
+                        <a href="#" rel="" name="theme" class="all on">全部</a>
+                        <a href="#" rel="古典雅致" name="theme" class="default">古典雅致</a>
+                        <a href="#" rel="可爱温馨" name="theme" class="default">可爱温馨</a>
+                        <a href="#" rel="时尚简约" name="theme" class="default">时尚简约</a>
+                        <a href="#" rel="潮流酷炫" name="theme" class="default">潮流酷炫</a>
+                        <a href="#" rel="节日庆典" name="theme" class="default">节日庆典</a>
+                    </dd>
+                </dl>
+                <dl class="cation-list">
+                    <dt>色系</dt>
+                    <dd>
+                        <a href="#" rel="" name="system" class="all on">全部</a>
+                        <a href="#" rel="多彩" name="system" class="default">多彩</a>
+                        <a href="#" rel="橙色" name="system" class="default">橙色</a>
+                        <a href="#" rel="粉色" name="system" class="default">粉色</a>
+                        <a href="#" rel="红色" name="system" class="default">红色</a>
+                        <a href="#" rel="绿色" name="system" class="default">绿色</a>
+                        <a href="#" rel="蓝色" name="system" class="default">蓝色</a>
+                        <a href="#" rel="黑色" name="system" class="default">黑色</a>
+                    </dd>
+                </dl>
+                <dl class="cation-list">
+                    <dt>价格</dt>
+                    <dd>
+                        <a href="#" rel="" name="price" class="all on">全部</a>
+                        <a href="#" rel="2000 - 6000" name="price" class="default">2000 - 6000</a>
+                        <a href="#" rel="6000 - 10000" name="price" class="default">6000 - 10000 </a>
+                        <a href="#" rel="10000 - 14000" name="price" class="default">10000 - 14000 </a>
+                        <a href="#" rel="18000 - 22000" name="price" class="default">18000 - 22000</a>
+                        <a href="#" rel="26000 - 30000" name="price" class="default">26000 - 30000</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+            $(function(){
+                new SelectTag({
+                    child : ".default", //所有默认
+                    over : 'on', //当前选中
+                    all : ".all" // 默认全部
+                });
+            })
+        </script>
+
+<div id="leftsead">
+
+	<ul>
+
+		<li><a href=""><img src="images/foot03/ll01.png" width="131" height="49" class="hides"/><img src="images/foot03/l01.png" width="47" height="49" class="shows" /></a></li>
+
+		<li><a href=""><img src="images/foot03/ll03.png" width="131" height="49"  class="hides"/><img src="images/foot03/l03.png" width="47" height="49" class="shows" /></a></li>
+
+		<li><a class="youhui"><img src="images/foot03/l02.png" width="47" height="49" class="shows" /><img src="images/foot03/youhui.png" width="145" height="343" class="hides" usemap="#taklhtml"/><map name="taklhtml"><area shape="rect" coords="26,273,115,300 " href="" /></map></a></li>
+
+		<li><a href="tencent://message/?uin=800027897&Site=test315.nesky.cn&Menu=yes"><img src="images/foot03/ll04.png" width="131" height="49" class="hides"/><img src="images/foot03/l04.png" width="47" height="49" class="shows" /></a></li>
+
+		<li><a href=""><img src="images/foot03/ll05.png" width="131" height="49" class="hides"/><img src="images/foot03/l05.png" width="47" height="49" class="shows" /></a></li>
+
+		<li><a id="top_btn"><img src="images/foot03/ll06.png" width="131" height="49" class="hides"/><img src="images/foot03/l06.png" width="47" height="49" class="shows" /></a></li>
+
+	</ul>
+
+</div><!--leftsead end-->
+
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+
+
+	$("#leftsead a").hover(function(){
+
+		if($(this).prop("className")=="youhui"){
+
+			$(this).children("img.hides").show();
+
+		}else{
+
+			$(this).children("img.hides").show();
+
+			$(this).children("img.shows").hide();
+
+			$(this).children("img.hides").animate({marginRight:'0px'},'slow'); 
+
+		}
+
+	},function(){ 
+
+		if($(this).prop("className")=="youhui"){
+
+			$(this).children("img.hides").hide('slow');
+
+		}else{
+
+			$(this).children("img.hides").animate({marginRight:'-143px'},'slow',function(){$(this).hide();$(this).next("img.shows").show();});
+
+		}
+
+	});
+
+
+
+	$("#top_btn").click(function(){if(scroll=="off") return;$("html,body").animate({scrollTop: 0}, 600);});
+
+
+
+});
+
+</script>
+
+
+
+</body>
+</html>

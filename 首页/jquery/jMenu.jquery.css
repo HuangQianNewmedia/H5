@@ -1,0 +1,213 @@
+
+#jMenu {
+	display:table;
+	margin:0 auto;
+	padding:0 auto;
+}
+
+/********************/
+/** premier niveau **/
+/********************/
+#jMenu li {
+	display:table-cell;
+	background-color:#0071bc;
+	margin:0;
+	//float:left;
+}
+	#jMenu li a {
+		padding:10px;
+		display:block;
+		background-color: transparent;
+		color:#fff;
+		text-transform:uppercase;
+		cursor:pointer;
+		font-size:20px;
+	}
+	
+/*******************/
+/** second niveau **/
+/*******************/
+#jMenu li ul {
+	display:none;
+	position:absolute;
+	padding:0;
+	margin:0
+}
+	#jMenu li ul li {
+		background-color:#0071bc;
+		display:block;
+		border-bottom:1px solid #484548;
+		padding:0
+	}
+	#jMenu li ul li.arrow {
+		background:#0071bc url('../arrow_down.png') no-repeat center center;
+		height:6px;
+		padding:0;
+		border-bottom:none;
+		padding-bottom:10px
+	}
+		#jMenu li ul li a {
+			font-size:11px;
+			text-transform:none;
+			padding:7px;
+			display:block;
+			border-top:1px solid transparent;
+			border-bottom:1px solid transparent;
+		}
+		#jMenu li ul li a.isParent {
+			background:#0071bc url('../arrow_right.png') no-repeat right center;
+		}
+			#jMenu li ul li a:hover {
+				background-color:#514c52;
+				border-top:1px solid #322f32;
+				border-bottom:1px solid #322f32;
+			}
+			html,body {
+    color: #333;
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    border: 0;
+}
+
+body {
+	background-color: #E8E8E8;
+	color: #666;
+}
+
+html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, blockquote, pre, button, fieldset, form, input, legend, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #08acee;
+}
+
+button {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+button,input,optgroup,select,textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #666;
+}
+
+a:hover {
+    color: #eee;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+}
+
+/* 必要布局样式css */
+.cation-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.cation-middle {
+    line-height: 48px;
+    background: #fff;
+    padding: 10px 20px 10px 30px;
+    font-size: 14px;
+}
+
+.cation-list {
+    overflow: hidden;
+}
+
+.cation-list dt {
+    float: left;
+    width: 64px;
+    font-weight: 700;
+    line-height: 48px;
+    position: relative;
+    color: #333;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cation-list dt:after {
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 22px;
+    border: 1px solid #333;
+    border-width: 0 1px 1px 0;
+    width: 4px;
+    height: 4px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.cation-list dd {
+    border-bottom: 1px dotted #e0e0e0;
+    margin-left: 64px;
+    overflow: hidden;
+}
+
+.cation-list dd a {
+    color: #8d8d91;
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    float: left;
+    border-right: 1px solid #e0e0e0;
+    padding: 0 18px;
+    margin: 17px 0;
+}
+
+.cation-list dd a.on, .cation-list a:hover {
+    color: #fc8080;
+}
+
+.cation-list dd a:last-child {
+    border-right: 0 none;
+}
+
+.cation-list:last-of-type dd {
+    border-bottom: 0 none;
+}
